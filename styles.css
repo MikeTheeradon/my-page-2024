@@ -1,41 +1,111 @@
-table {
+/* Tage selector คือ ชื่อเรียกองค์ประกอบทั้งหมด */
+.resume {
+  text-align: center;
+  text-shadow: 2px 2px 5px #000000;
+  color: white;
+  font-size: 350%;
+  margin-bottom: 5px;
+  margin-top: 20px;
+
+}
+.im {
+  width: 40%
+
+}
+
+.table-two {
     border-collapse: collapse;
-    border: 2px solid rgb(140 140 140);
+    border: 4px solid rgb(5, 0, 0);
     font-family: sans-serif;
-    font-size: 0.8rem;
+    font-size: 100%;
     letter-spacing: 1px;
-  }
-  
-  caption {
-    caption-side: bottom;
-    padding: 10px;
-    font-weight: bold;
-  }
-  
-  thead,
-  tfoot {
-    background-color: rgb(228 240 245);
-  }
-  
-  th,
-  td {
-    border: 1px solid rgb(160 160 160);
-    padding: 8px 10px;
-  }
-  
-  td:last-of-type {
+    background-color: rgba(186, 234, 247, 0.359);
     text-align: center;
-  }
-  
-  tbody > tr:nth-of-type(even) {
-    background-color: rgb(237 238 242);
-  }
-  
-  tfoot th {
-    text-align: right;
-  }
-  
-  tfoot td {
-    font-weight: bold;
-  }
-  
+    margin-left: auto;
+    margin-right: auto;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+    color: rgb(8, 0, 0);
+}
+.experience{
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 5px #000000;
+  margin-bottom: 10px;
+}
+.table-two td, .table-two th {
+  border: 1px solid rgb(1, 0, 0); /* เส้นขอบในทุกช่อง */
+  padding: 10px;
+}
+.table-two th {
+  background-color: rgba(36, 4, 246, 0.536);
+  color: rgb(252, 250, 250);
+}
+
+.table-one {
+  /* margin-left: auto;
+  margin-right: auto; */
+  table-layout: auto;
+  vertical-align: top;
+  text-shadow: 2px 2px 5px #000000;
+  color: white;
+  /* width: 100%; */
+}
+.pig {
+  text-align: center;
+  vertical-align: top;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 40%;
+  margin-bottom: 0px;
+
+}
+.data {
+  width: 60%;
+  vertical-align: top;
+}
+.detel {
+  margin-top: 8%;
+}
+.me {
+  text-align: center;
+}
+
+
+
+h1 {
+  margin-bottom: 0px;
+}
+
+img {
+    /* width: 40%; 
+    height: 10%; */
+    border-radius: 50%;
+
+}
+
+.hr1 {
+    border-style: dotted none none;
+    border-width: 4px;
+    width: 42%;
+    color:rgba(83, 10, 242, 0.711);
+    float: right;
+}
+.hr2 {
+  border-style: dotted none none;
+  border-width: 4px;
+  width: 42%;
+  color:rgba(83, 10, 242, 0.711);
+  float: left;
+}
+
+body {
+  background-image: url(https://i.pinimg.com/originals/7f/23/54/7f2354571f93ae1092907b410e319369.gif);
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+a:hover {
+  background-color: rgba(0, 51, 255, 0.634);
+  font-size: 18px;
+}
